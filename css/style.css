@@ -1,0 +1,2742 @@
+html, body {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    border: #000;
+    font-size: calc(100vw / 1920 * 10);
+}
+img {   
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+.cart-popup {
+    position: fixed;
+    top: 0rem;
+    right: 0rem;
+    width: 80rem;
+    height: 200rem;
+    background-color: #333;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    display: none;
+    z-index: 10; 
+}
+.cart-txt{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 3rem;
+    text-align: center;
+}
+.cart-trigger-close{
+    position: absolute;
+    top: 3.5rem;
+    width: 6rem;
+}
+.cart_img{
+    margin-left: 1rem;
+    width: 7rem;
+    margin-top: 2rem;
+}
+.cart_wr{
+    display: none;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    width: 87%;
+    height: 14rem;
+    border: 0.1rem solid #ffffff;
+    border-radius: 2rem;
+}
+.cart_nazvan{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.cart_avtor{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+.cart_cena{
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+.cart_chbx{
+    position: relative;
+    width: 3rem;
+    margin-left: 54rem;
+    top: -9rem;
+}
+.cart_opl{
+    margin-top: 3rem;
+    margin-left: 25rem;;
+}
+.cart_opl_but{
+    display: none;
+    width: 30rem;
+    color: #000;
+    height: 6rem;
+    border: none;
+    background-color: #ffffff;
+    font-weight: 700;
+    font-size: 2.4rem;
+    border-radius: 2rem;
+    box-shadow: 0rem 0.7rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
+}
+.cart_opl_but:hover{
+    background-color: #c7c7c7;
+    color: #000000;
+    transition: 0.3s linear;
+}
+.mm-popup {
+    position: fixed;
+    width: 50.1rem;
+    height: 80rem;
+    background-color: #000000;
+    display: none;
+    z-index: 10;
+    opacity: 0.9;
+}
+.mm_n{
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+.test{
+    margin: 0 auto;
+    width: 100%;
+}
+.header{
+    background-color: #FFB400;
+    width: 100%;
+    height: 22rem;
+}
+.body{
+    width: 100%;
+    margin: 0 auto;
+    color:#ffffff;
+}
+.container_head{
+    width: 100%;
+}
+.head_menu_mob{
+    display: none;
+}
+.header_gorod{
+    margin-left: 4.1rem;
+    margin-top: 3.4rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 2.25%;
+}
+.select{
+    appearance: none;
+    background-color: #FFB400;
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-left: 1.5rem;
+    border: none;
+}
+.select:hover{
+    color: #FFF0CD;
+}
+.name{
+    margin-left: 87.2rem;
+    margin-top: 2.341rem;
+    font-size: 4rem;
+    font-weight: 900;
+    position: absolute;
+}
+.home{
+    text-decoration: none;
+    color: #fff;
+}
+.home:hover{
+    color: #FFF0CD;
+}
+.nav{
+    position: absolute;
+    margin-top: 9rem;
+    margin-left: 46.65rem;
+}
+.nav-item {
+    text-decoration: none;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #fff;
+    margin-right: 7.5rem;
+}
+.nav-item-right {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+.nav-item-right:hover{
+    color: #FFF0CD;
+}
+.nav-item:hover{
+    color: #FFF0CD;
+}
+.header_lkbk {
+    position: absolute;
+    margin-top: 3.2rem;
+    margin-left: 165.2rem;
+    display: flex;
+}
+.logo_lk{
+    width: 28%;
+}
+.logo_bk{
+    margin-left: 11rem;
+    width: 28%;
+}
+.text_lk, .text_bk{
+    margin-top: 4.9rem;
+}
+.text_lk{
+    position: absolute;
+    right: 8.8rem;
+    width: 16.7rem;
+}
+.text_bk{
+    position: absolute;
+    left: 13.2rem;
+}
+input{
+    width: 100%;
+    font-size: 2.4rem;
+    font-weight: 400;
+  height: 5rem;
+  background: #FFF;
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  box-sizing: border-box;
+  padding-left: 8rem;
+}
+.div_search{
+    width: 97rem;
+    position: absolute;
+    margin-top: 13.7rem;
+    left: 47.6rem;
+}
+.button_poisk {
+    position: absolute;
+    bottom: 0.88rem;
+    margin-left: 2.8rem;
+    width: 5%;
+}
+.image_button{
+    border: none;
+    background-color: #FFF;
+}   
+.text{
+    margin-right: 3rem;
+}
+.bodyer, .bodyer_news{
+    width: 100%;
+}
+.container_body, .container_body_cart{
+    margin: 4.4rem 37.5rem;
+}
+.slayder{
+    height: 48rem;
+}
+.sl_pr{
+    width: 117rem;
+    height: 48.6rem;
+    position: relative;
+}
+.sl_l, .sl_r{
+    width: 7.9rem;
+    height: 8.7rem;
+    position: absolute;
+    top: 20.4rem;
+    margin-left: 3.2rem;
+}
+.sl_r{
+    margin-left: 106rem;
+}
+.sl_pr_txt, .sl_pr_vt_txt{
+    position: absolute;
+    font-weight: 700;
+}
+.sl_pr_txt{
+    top: 7.4rem;
+    margin-left: 19.7rem;
+    font-size: 6.4rem;
+}
+.sl_pr_vt_txt{
+    top: 26rem;
+    left: 19.7rem;
+    font-size: 2.4rem;
+}
+.sl_but{
+    border: none;
+    background-color: transparent;
+}
+.button_sl{
+    position: absolute;
+    top: 35rem;
+    margin-left: 37.6rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.sl_butt{
+    color: #ffffff;
+    border: none;
+    background-color: #605C8F;
+    width: 41.6rem;
+    font-weight: 700;
+    height: 7rem;
+    border-radius: 3.5rem;
+    box-shadow: 0rem 0.7rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
+}
+.sl_butt:hover{
+    background-color: #333333;
+    color: #E1E1E1;
+    transition: 0.3s linear;
+}
+.sl_vt{
+    width: 117rem;
+    height: 48.6rem;
+    background-color: #4cb35a;
+    border-radius: 3.5rem;
+    position: absolute;
+    top: 26.2rem;
+    z-index: -1;
+}
+.sl_tr{
+    width: 117rem;
+    top: 26.2rem;
+    height: 48.6rem;
+    border-radius: 3.5rem;
+    background-color: #3ba1c0;
+    position: absolute;
+    z-index: -2;
+}
+.skidka{
+    margin-top:  8.4rem;
+    width: 28rem;
+    height: 40.3rem;
+    border-radius: 3.5rem;
+    background: linear-gradient(135deg, #FFD673 0%, rgba(252, 206, 94, 0.68) 100%);
+    color: #ffffff;
+}
+.skidka_txt{
+    position: relative;
+    font-size: 4rem;
+    font-weight: 900;
+    top: 7.7rem;
+    left: 1.7rem;
+}
+.skidka_txtc{
+    position: relative;
+    font-size: 9.6rem;
+    font-weight: 900;
+    top: 14.9rem;
+    left: 4.1rem;
+}
+.l_kn_mec{
+    position: relative;
+    height: 48.3rem;
+    width: 85.8rem;
+    margin-left: 30rem;
+    bottom: 40.3rem;
+}
+.txt_nav{
+    display: flex;
+}
+.nav_but_knm{
+    display: flex;
+    margin-left: 73.3rem;
+    position: absolute;
+}
+.l_but, .r_but{
+    border: none;
+    background-color: #FFF;
+}
+.l_kn_mec{
+    color: #000;
+    font-size: 3.2rem;
+    font-weight: 700;
+    height: 3.9rem;
+    width: 41.8rem;
+}
+.spisok_kn_mec{
+    width: 83rem;
+    display: flex;
+    margin-left: 1.8rem;
+}
+.kn_mec{
+    margin-right: 2rem;
+    margin-top: 4.9rem;
+}
+.kn_mec1{
+    margin-right: 2rem;
+    margin-top: 4.9rem;
+}
+.pok_bol{
+    position: absolute;
+    top: 32.5rem;
+    border-radius: 3.5rem;
+    z-index: 2;
+}
+.pok_but{
+    background-color:  #FFD673;
+    border-radius: 3.5rem;
+    width: 85.8rem;
+    height: 7.8rem;
+    border: none;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #333;
+}
+.pok_but:hover{
+    background-color: #333333;
+    color: #E1E1E1;
+    transition: 0.3s linear;
+}
+.razdel{
+    width: 100%;
+    box-sizing: border-box;
+    height: 44.2rem;
+    background: #E1E1E1;
+}
+.podrazd{
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    width: 115.9rem;
+    height: 30.8rem;
+    background: #fff;
+    border-radius: 3.5rem;
+    margin-top: 6.2rem;
+    margin-left: 38.9rem;
+}
+.kn-jo{
+    width: 34rem;
+    height: auto;
+}
+.pod_txt{
+    width: 60.5rem;
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: #333;
+    margin-left: 35.2rem;
+    margin-top: 5.8rem;
+    position: absolute;   
+}
+.pod_txt_av{
+    font-size: 3.6rem;
+    font-weight: 400;
+    color: #333;
+    margin-left: 68rem;
+    margin-top: 16.3rem;
+    position: absolute;
+}
+.container_body_tw{
+    margin: 4.4em 37.7rem;
+}
+.txt_podb{
+    color: #000;
+    font-size: 3.2rem;    
+    font-weight: 700;
+}
+.podborki{
+    font-size: 3.6rem;
+    font-weight: 700;
+    width: 23.2rem;
+    display: flex;
+}
+.podb{
+    margin-top: 3.5rem;
+    position: relative;
+    display: flex;
+    margin-right: 3.1rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+.podbo_img{
+    width: 26.8rem;
+}
+.podb img {
+    filter: brightness(45%)
+}
+.txt_pod_o{
+    position: absolute;
+    margin-top: 3.5rem;
+    margin-left: 1.8rem;
+}
+.txt_avt{
+    color: #000;
+    font-size: 3.2rem;    
+    font-weight: 700;
+    margin-top: 5.6rem;
+}
+.avt{
+    margin-top: 3.2rem;
+    width: 117rem;
+    height: 72.2rem;
+    border-radius: 3.5rem;
+    background: linear-gradient(112deg, #A3C7DC -0.66%, #A3C7DC -0.65%, #29575E 99.08%);
+}
+.crug{
+    position: absolute;
+    width: 14rem;
+    height: 14rem;
+    background-color: #FFD673;
+    border-radius: 100%;
+    margin-top: 2.2rem;
+    margin-left: 14.1rem;
+}
+.rb_crug{
+    position: absolute;
+    z-index: 1;
+    bottom: 0rem;
+}
+.rb_txt{
+    position: absolute;
+    font-size: 3.2rem;
+    font-weight: 700;
+    width: 25.9rem;
+    margin-top: 19.1rem;
+    margin-left: 8.2rem;
+}
+.rb_txt_op{
+    position: absolute;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 150%;
+    width: 36.5rem;
+    margin-top: 25.6rem;
+    margin-left: 3.8rem;
+}
+.crug_vt{
+    position: absolute;
+    width: 9.5rem;
+    height: 9.5rem;
+    background-color: #FFD673;
+    border-radius: 100%;
+    margin-top: 2.2rem;
+    margin-left: 46.8rem;
+}
+.crug_tr{
+    position: absolute;
+    width: 9.5rem;
+    height: 9.5rem;
+    background-color: #FFD673;
+    border-radius: 100%;
+    margin-top: 2.2rem;
+    margin-left: 65.5rem;
+}
+.crug_ch{
+    position: absolute;
+    width: 9.5rem;
+    height: 9.5rem;
+    background-color: #FFD673;
+    border-radius: 100%;
+    margin-top: 2.2rem;
+    margin-left: 84.2rem;
+}
+.sk_crug, .kki_crug{
+    position: absolute;
+    z-index: 1;
+    bottom: 0.01rem;
+}
+.ach_crug{
+    position: absolute;
+    z-index: 1;
+    bottom: 0.03rem;
+    right: 0.03rem;
+}
+.sk_txt, .kki_txt, .ach_txt{
+    font-size: 2rem;
+    font-weight: 600;
+    position: absolute;
+}
+.sk_txt{
+    margin-top: 13.9rem;
+    margin-left: 45rem;
+}
+.kki_txt{
+    margin-top: 13.9rem;
+    margin-left: 65.2rem;
+}
+.ach_txt{
+    margin-top: 13.9rem;
+    margin-left: 82.6rem;
+}
+.rr_kn_r{
+    position: absolute;
+    margin-top: 20.2rem;
+    margin-left: 56.4rem;
+}
+.rr_kn_d{
+    position: absolute;
+    margin-top: 20.2rem;
+    margin-left: 76.7rem;
+}
+.rr_kn_t{
+    position: absolute;
+    margin-top: 43.3rem;
+    margin-left: 49.3rem;
+}
+.rr_kn_c{
+    position: absolute;
+    margin-top: 43.3rem;
+    margin-left: 67rem;
+}
+.rr_kn_p{
+    position: absolute;
+    margin-top: 43.3rem;
+    margin-left: 85.6rem;
+}
+.rr_kn_r, .rr_kn_d, .rr_kn_t, .rr_kn_c, .rr_kn_p{
+    width: 7%;
+}
+.av_but_left, .av_but_right{
+    border: none;
+    opacity: .3;
+    background-color: transparent;
+}
+.avt_nav_l{
+    position: absolute;
+    margin-top: 6.5rem;
+    margin-left: 36.4rem;
+}
+.avt_nav_r{
+    position: absolute;
+    margin-top: 6.5rem;
+    margin-left: 98.3rem;
+}
+
+.debook_rek{
+    margin-top: 8.4rem;
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #000;
+}
+.card{
+    margin-top: 3.7rem;
+    margin-left: 3.5rem;
+    display: flex;
+    height: 46.3rem;
+    width: 24.8rem;
+}
+.kn, .kn_sk{
+    margin-right: 3.7rem;
+}
+.i_kn, .i_kn_s, .i_kn_d{
+    display: block;
+    margin-left: 3.5rem;
+}
+.nazv_kn{
+    margin-top: 1.3rem;
+    color: #000;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.avt_kn{
+    margin-top: 1.2rem;
+    color: #000;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.cena{
+    margin-top: 1.2rem;
+    color: #000;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+.ceni{
+    display: flex;
+}
+.new_cena{
+    margin-top: 1.2rem;
+    color: #FB5858;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+.st_cena{
+    position: absolute;
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-left: 7.9rem;
+    color: #636262;
+}
+.block_pr{
+    position: absolute;
+    margin-left: 16.8rem;
+    margin-top: 0.5rem;
+    width: 7.5rem;
+    height: 3rem;
+    border-radius: 3.5rem;
+    background: #FB5858;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.pr_sk{
+    font-size: 2rem;
+    font-weight: 700;   
+    margin-left: 1rem;
+}
+.line{
+    position: absolute;
+    top: 0.7rem;
+    width: 3.5rem;
+    height: 0.1rem;
+    background: #636262;
+}
+.kn_cup{
+    margin-top: 2.1rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.but_cup{
+    width: 24.3rem;
+    height: 5.5rem;
+    border-radius: 3.5rem;
+    background: #FFD673;
+    border: none;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+}
+.but_cup:hover{
+    background-color: #333333;
+    color: #E1E1E1;
+    transition: 0.3s linear;
+}
+.rass{
+    margin-top: 11rem;
+    width: 116.1rem;
+    height: 26.8rem;
+    border-radius: 3.5rem;
+    background: #FFD673;
+    border: none;
+    display:flex
+}
+.png_ras{
+    margin-top: 5.2rem;
+    margin-left: 2.6rem;
+    width: 15%;
+}
+.txt_rass{
+    margin-left: 1.4rem;
+    margin-top: 2.5rem;
+    color: #333;
+    font-size: 3.6rem;
+    font-weight: 700;
+    width: 92.7rem;
+    height: 11.2rem;
+}
+.ras_form{
+    width: 57.6rem;
+    height: 7.1rem;
+    border-radius: 7rem;
+}
+.form_ras{
+    position: absolute;
+    margin-top: 14.8rem;
+    margin-left: 26.5rem;
+}
+.text_ras{
+    color: #000;
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+.pod_ras{
+    position: absolute;
+    margin-left: 53.3rem;
+    margin-top: 14.8rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #333;
+    transition: margin-left 0.3s;
+}
+.but_ras{
+    width: 32.5rem;
+    height: 7.3rem;
+    font-weight: 700;
+    border-radius: 3.5rem;
+    background: #FFB400;
+    border: none;
+    transition: margin-left 0.3s;
+}
+.move-right { 
+    margin-left: 25.3rem;
+}   
+.but_ras:hover{
+    background-color: #333333;
+    color: #E1E1E1;
+    transition: 0.3s linear;
+}
+.podval{
+    background: #FFB400;
+    width: 100%;
+    height: 29.7rem;
+}
+.podval_d{
+    background: #FFB400;
+    width: 100%;
+    height: 29.7rem;
+}
+.container_podval{
+    margin: 11rem 37.5rem;
+}
+.n_debook{
+    position: relative;
+    font-size: 4rem;
+    font-weight: 900;
+    box-sizing: border-box;
+    padding-top: 3.8rem;
+}
+.nav_p{
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-top: 4.9rem;
+}
+.nav-p-item{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 4rem;
+}
+.nav-p-item:hover{
+    color: #FFF0CD;
+}
+.adr{
+    font-size: 2rem;
+    font-weight: 400;
+    width: 30.4rem;
+    margin-top: 2rem;
+}
+.container_body_akcii{
+    margin: 4.4rem 37.9rem;
+}
+.element_akcii{
+    display: flex;
+    margin-top: 3rem;
+}
+.nastr_img{
+    display: none;
+}
+.akcii_filtr{
+    width: 27.6rem;
+    height: 100rem;
+    border-radius: 3.5rem;
+    border: 0.1rem solid #000;
+}
+.akcii-filtr-nav-ac-ct{
+    margin-top: 2.1rem;
+    margin-left: 1.2rem;
+    font-size: 3.2rem;
+    font-weight: 400;
+    width: 15.2rem;
+    color: #000;
+}
+.akcii-filtr-nav-ft{
+    display: none;
+}
+.akcii-filtr-nav-ct{
+    margin-top: 1rem;
+}
+.akcii-filtr-nav-ct_d{
+    margin-top: 1rem;
+}
+.akcii-filtr-nav-kn, .akcii-filtr-nav-filtr, .akcii-filtr-nav-filtr-o{
+    color: #333;
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+.akcii-filtr-nav-kn{
+    margin-left: 3rem;
+    margin-top: 0.6rem;
+}
+.akcii-filtr-nav-filtr{
+    margin-left: 4.6rem;
+    margin-top: 1.4rem;
+}
+.akcii-filtr-nav-filtr-o{
+    margin-left: 4.6rem;
+    margin-top: 1.4rem;
+}
+.akcii-filtr-nav-izd, .akcii-filtr-nav-izd-d{
+    color: #000;
+    margin-top: 1.9rem;
+    margin-left: 1.3rem;
+    font-size: 3.2rem;
+    font-weight: 400;
+}
+.akcii-filtr-slider{
+    margin-top: 2.2rem;
+}
+.akcii-filtr-nav-izd-dos{
+    color: #000;
+    margin-top: 1.9rem;
+    margin-left: 1.3rem;
+    font-size: 3.2rem;
+    font-weight: 400;
+}
+.akcii-filtr-nav-cen-img{
+    margin-top: 2.3rem;
+}
+.akcii-filtr-nav-cen-otdo{
+    color: #6B6B6B;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.akcii-filtr-nav-cen-ot, .akcii-filtr-nav-cen-do{
+    color: #6B6B6B;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.akcii-filtr-nav-cen-otdo{
+    display: flex;
+    margin-top: 2rem;
+}
+.noUi-handle::after
+.noUi-handle::before{
+    display: none;
+}
+.akcii-filtr-nav-cen-do{
+    margin-left: 14.5rem;
+}
+.akcii-filtr-nav-cen-input-txt-min, .akcii-filtr-nav-cen-input-txt-max{
+    position: relative;
+    color: #6B6B6B;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.akcii-filtr-nav-cen-input-txt-minmax{
+    display: flex;
+}
+input[type="number"] {
+	-moz-appearance: textfield;
+	-webkit-appearance: textfield;
+	appearance: textfield;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	display: none;
+}
+.input-nmb-akcii {
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    border-radius: 2rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.30);
+    outline: none;
+    width: 8.7rem;
+    height: 3.7rem;
+    margin-left: 0rem;
+    appearance: none;
+    color: #6B6B6B;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+}
+.akcii-filtr-rub{
+    font-size: 1.6rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 7rem;
+}
+.akcii-filtr-nav-izd-mob{
+    display: none;
+}
+.akcii-filtr-nav-ct-mob, .akcii-filtr-nav-ct-mob2{
+    display: none;
+}
+.akcii-filtr-nav-cen-input-txt-max{
+    margin-left: 8rem;
+}
+.akcii-filtr-nav-but{
+    margin-top: 2.3rem;
+    margin-left: 1.3rem;
+}
+.akcii-filtr-nav-button{
+    border-radius: 3.5rem;
+    background: #FFD673;
+    width: 24.4rem;
+    height: 7.3rem;
+    color: #333;
+    font-size: 2.4rem;
+    font-weight: 700;
+    border: none;
+}
+.akcii-filtr-nav-button:hover{
+    background-color: #333333;
+    color: #E1E1E1;
+    transition: color 0.3s linear;
+}
+.akcii_knigi{
+    margin-top: 0.5rem;
+    height: 208.3rem;
+    margin-left: 5.2rem;
+}
+.div_ryad_akcii{
+    display: flex;
+    width: 80.4rem;
+}
+.div_ryad_akcii_p{
+    display: flex;
+    width: 80.4rem;
+    margin-top: 7.7rem;
+}
+.akcii-kn{
+    margin-right: 3rem;
+
+}
+.nav_str{
+    display: flex;
+}
+.nav_str_akcii,.nav_str_cat {
+    margin-top: 11.7rem;
+    margin-left: 87rem;
+    font-size: 2.4rem;
+    font-weight: 400;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav-item-str {
+    text-decoration: none;
+    margin-right: 2.1rem;
+    color: #000;
+    margin-left: 1.1rem;
+    margin-top: 0.5rem;
+    transition: transform 0.5s ease;
+}
+
+.nav-item-str-vib {
+    width: 3.5rem;
+    height: 3.5rem;
+    background: #ffd673;
+    position: absolute;
+    z-index: -1;
+    transition: left 0.5s ease;
+}
+.card_hleb{
+    display: flex;
+}
+.card_hleb-item{
+    color: #636262;
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 0.8rem;
+}
+.card_info{
+    margin-top: 3rem;
+    display: flex;
+}
+.card_info_cena{
+    font-size: 5rem;
+    color: #333;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+.card_info_img {
+    display: flex;
+}
+.card_info_img_osn{
+    width: 49rem;
+}
+.card_ingo_img_1 {
+    margin-top: 6.9rem;
+}
+.card_ingo_img_1, .card_ingo_img_2, .card_ingo_img_3{
+}
+.card_info_osn {
+    margin-right: 3rem;
+}
+.card_info_img_3{
+    width: 19%
+}
+.card_info_img img {
+    cursor: pointer;
+    max-width: 100%;
+    height: auto;
+}
+.card_info_name{
+    color: #333;
+    font-size: 4.8rem;
+    font-weight: 700;
+}
+.card_info_avt{
+    margin-top: 1.1rem;
+}
+.card_info_avt_a{
+    color: #FFB400;
+    font-size: 3.2rem;
+    font-weight: 500;
+}
+.card_info_img_3_mob{
+    display: none;
+}
+.card_info_avt_a:hover{
+    color: #636262;
+    transition: color 0.3s linear;
+}
+.card_info_tovar{
+    color: #333;
+    font-size: 2.4rem;
+    font-weight: 400;
+    display: flex;
+}
+.card_info_tovar_left_item, .card_info_tovar_right_item, .card_info_tovar_left_item_p{
+    margin-top: 1.9rem;
+}
+.card_info_tovar_right{
+    margin-left: 13rem;
+}
+.card_info_but {
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+.card_info_button{
+    border-radius: 5rem;
+    background: #FFD673;
+    width: 36.3rem;
+    height: 7.2rem;
+    color: #333;
+    font-size: 2.4rem;
+    font-weight: 600;
+    border: none;
+}
+.card_info_button:hover{
+    background-color: #333333;
+    color: #E1E1E1;
+    transition: 0.3s;
+}
+.card_info_neosn{
+    color: #636262;
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-top: 7rem;
+    line-height: 3.5rem;
+}
+.d_txt_a{
+    color: #333;
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+.d_banner{
+    margin-top: 3rem;
+    border-radius: 5rem;
+    background: #FFD673;
+    width: 117.2rem;
+    height: 30.7rem;
+}
+.d_banner_txt{
+    box-sizing: border-box;
+    margin-left: 12.7rem;
+    padding-top: 3rem;
+    color: #333;
+    font-size: 4.8rem;
+    font-weight: 700;
+    width: 98.6rem;
+}
+.d_banner_but_img{
+    display: flex;
+}
+.d_banner_but{
+    position: relative;
+    margin-left: 12.7rem;
+    margin-top: 5rem;
+}
+.d_banner_button{
+    border-radius: 3rem;
+    background: #333;
+    box-shadow: 0rem 0.4rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
+    width: 40.6rem;
+    height: 7.8rem;
+    color: #FFF;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.d_banner_button:hover{
+    background-color: #E1E1E1;
+    color: #333333;
+    transition: color 0.3s linear;
+    border: none;
+}
+.d_banner_img{
+    margin-left: 32.3rem;
+    position: relative;
+    top: -3.9rem;
+    width: 17%;
+}
+.d_carta{
+    margin-top: 4.7rem;
+    width: 117.2rem;
+    height: 90rem;
+    border-radius: 5rem 0rem 0rem 5rem;
+    background: #333;
+    background: #333;
+    display: flex;
+}
+.d_carta_yancarta{
+    width: 76.5rem;
+    height: 90rem;
+}
+.d_carta_pvz_pv{
+    color: #FFD673;
+    font-size: 3.6rem;
+    font-weight: 900;
+    margin-top: 3.9rem;
+    margin-left: 7rem;
+    width: 33.3rem;
+}
+.d_carta_pvz_punkt{
+    color: #FFD673;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 4.8rem;
+    margin-left: 3.1rem;
+}
+.d_carta_pvz_punkt_adr{
+    color: #FFF;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.news{
+    margin-top: 3.2rem;
+}
+.osn_news{
+    display: flex;
+}
+.news_one, .news_one_mob{
+    margin-right: 3rem;
+}
+.akpr_prob{
+    margin-right: 2rem;
+}
+.news_one_osn{
+    width: 57rem;
+    height: 14.7rem;
+    border-radius: 0rem 0rem 2rem 2rem;
+    background: #333;
+}
+.news_one_osn_txt1{
+    color: #FFF;
+    font-size: 2.4rem;
+    font-weight: 700;
+    padding-top: 1.9rem;
+    margin-left: 3.7rem;
+    box-sizing: border-box;
+    width: 50.5rem;
+}
+.news_one_osn_txt2{
+    color: #D5D5D5;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 3.7rem;
+    margin-top: 1.7rem;
+}
+.vt_news{
+    margin-top: 3.3rem;
+    display: flex
+}
+.news_three{
+    width: 37rem;
+    height: 12.2rem;
+    border-radius: 0rem 0rem 2rem 2rem;
+    background: #333;
+}
+.akciya_pr{
+    width: 38rem;
+    height: 13rem;
+    border-radius: 0rem 0rem 2rem 2rem;
+    background: #052C2B;
+}
+.srok_akcii_wrapper{
+    margin-left: 2.402rem;
+}
+.srok_akcii{
+    color: #FFF;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding-top: 1.275rem;
+    box-sizing: border-box;
+}
+.news_three_txt1{
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 1.275rem;
+    box-sizing: border-box;
+    margin-left: 2.402rem;
+}
+.news_three_txt2{
+    color: #D5D5D5;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-left: 2.402rem;
+    margin-top: 1.4rem;
+}
+.akpr_txt2{
+    color: #AFAFAF;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: 1.4rem;
+    width: 34rem;
+}
+.c_txt, .c_txt_o, .c_txt_po{
+    color: #000;
+    font-size: 2.6rem;
+    font-weight: 400;
+    margin-left: 5rem;
+}
+.c_txt{
+    margin-top: 5rem;
+}
+.c_txt_img{
+    margin-top: 5.5rem;
+    position: absolute;
+}
+.c_txt_po{
+    margin-top: 4.7rem;
+}
+.news_p_wrapper{
+    margin-top: 3rem;
+}
+.news_p_w_txt{
+    font-size: 4.8rem;
+    font-weight: 700;
+    position: absolute;
+    top: 48rem;
+    margin-left: 20rem;
+    width: 75.8rem;
+}
+.news_p_inf{
+    color: #333;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 4rem;
+    letter-spacing: 0.03rem;
+    line-height: 3rem;    
+}
+.news_p_img{
+    padding-right: 3rem;
+    box-sizing: border-box;
+}
+.news_p_img_p{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: center;
+}
+
+
+@media (max-width: 1736px) {
+    .header_gorod {
+        width: 2%;
+    }
+    .logo_lk, .logo_bk {
+        width: 19%;
+    }
+    .nav-item-right, .select {
+        font-size: 1.8rem;
+    }
+}
+@media (max-width: 1640px) {
+    .text_lk {
+        right: 9.8rem;
+    }
+}
+@media (max-width: 1428px) {
+    .text_lk {
+        right: 10.8rem;
+    }
+}
+@media (max-width: 1338px) {
+    .text_lk, .text_bk {
+        margin-top: 5.4rem;
+    }
+    .text_lk {
+        right: 11.5rem;
+    }
+    .text_bk {
+        left: 14.2rem;
+    }
+}
+@media (max-width: 1194px) {
+    .logo_lk, .logo_bk {
+        width: 16%;
+    }
+    .text_lk {
+        right: 12.5rem;
+    }
+    .text_bk {
+        left: 13.2rem;
+    }
+}
+@media (max-width: 1094px) {
+    .text_lk {
+        right: 14.5rem;
+    }
+    .text_bk {
+        left: 14.2rem;
+    }
+}
+@media (max-width: 1024px) {
+    html{
+        font-size: calc(100vw / 768 * 10);
+    }
+    .header{
+        height: 14rem;
+    }
+    .cart-popup {
+        right: 0rem;
+        width: 37rem;
+        height: 70rem;
+        border-radius: 0rem;
+    }
+    .cart_img{
+        width: 7rem;
+        height: 8rem;
+    }
+    .cart_wr {
+        margin-top: 2rem;
+        margin-left: 2rem;
+        width: 90%;
+        height: 12rem;
+    }
+    .cart_nazvan {
+        font-size: 1.8rem;
+    }
+    .cart_avtor {
+        font-size: 1.6rem;
+    }
+    .cart-txt{
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+    .cart-trigger-close {
+        top: 2rem;
+        width: 4rem;
+    }
+    .cart_chbx {
+        width: 2rem;
+        margin-left: 23rem;
+        top: -7rem;
+    }
+    .cart_opl { 
+        margin-left: 7.5rem;
+    }
+    .cart_cena {
+        font-size: 2rem;
+    }
+    .cart_opl_but {
+        width: 23rem;
+        height: 5rem;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    .select{
+        font-size: 1.6rem;
+        margin-left: 0.5rem;
+    }
+    .header_gorod{
+        width: 2.5rem;
+        margin-left: 2rem;
+        margin-top: 1.1rem;
+    }
+    .nav{
+        margin-left: 11rem;
+        margin-top: 6rem;
+    }
+    .nav-item{
+        font-size: 1.6rem;
+        margin-right: 2.5rem;
+    }
+    .div_search {
+        width: 72.5rem;
+        left: 2rem;
+        margin-top: 8.7rem;
+    }
+    .name{
+        margin-left: 30rem;
+        margin-top: 1rem;
+        font-size: 2.8rem;
+    }
+    .header_lkbk {
+        margin-top: 1rem;
+        margin-left: 68rem;
+    }
+    .logo_lk, .logo_bk {
+        width: 2.5rem;
+    }
+    .logo_bk{
+        margin-left: 1rem;
+    }
+    .text_lk, .text_bk {
+        display: none;
+    }
+    .nav-item-right {
+        font-size: 1.6rem;
+    }
+    input{
+        font-size: 1.4rem;
+        height: 3.5rem;
+        padding-left: 6rem;
+        border-radius: 1.5rem;
+    }
+    .button_poisk {
+        bottom: 0.8rem;
+        margin-left: 2.3rem;
+        width: 4%;
+    }
+    .container_body, .container_body_cart, .container_body_tw, .container_body_akcii{
+        margin: 2rem 2rem;
+    }
+    .slayder {
+        height: 24rem;
+    }
+    .sl_pr, .sl_vt, .sl_tr {
+        width: 72.5rem;
+    }
+    .sl_vt, .sl_tr{
+        height: 32.1rem;
+        top: 14rem;
+        border-radius: 2rem;
+    }
+    .sl_l, .sl_r{
+        top: 13.5rem;
+        width: 5rem;
+    }
+    .sl_l{
+        margin-left: 1.2rem;
+    }
+    .sl_r {
+        margin-left: 65.7rem;
+    }
+    .sl_pr_txt {
+        top: 4.4rem;
+        margin-left: 13.7rem;
+        font-size: 3.4rem;
+    }
+    .sl_pr_vt_txt {
+        top: 13rem;
+        left: 13.7rem;
+        font-size: 1.8rem;
+    }
+    .button_sl {
+        top: 22rem;
+        margin-left: 21.6rem;
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    .sl_butt{
+        height: 5rem;
+        border-radius: 3rem;
+        width: 30.6rem;
+    }
+    .skidka{
+        width: 20rem;
+        height: 27rem;
+        border-radius: 2rem;
+    }
+    .skidka_txt {
+        font-size: 2.8rem;
+        top: 4rem;
+        left: 1.7rem;
+    }
+    .skidka_txtc {  
+        font-size: 8.6rem;
+        top: 7.9rem;
+        left: 1rem;
+    }
+    .l_kn_mec {
+        height: 1rem;
+        width: 50.8rem;
+        margin-left: 21rem;
+        bottom: 26.8rem;
+        font-size: 2rem;
+    }
+    .nav_but_knm {
+        margin-left: 43.3rem;
+    }
+    .spisok_kn_mec {
+        margin-left: 0.8rem;
+        margin-top: 1rem;
+        width: 52rem;
+    }
+    .kn_mec, .kn_mec1 {
+        margin-right: 1rem;
+        margin-top: 2rem;
+        width: 12rem;
+    }
+    .pok_but {
+        width: 53.5rem;
+        height: 5.8rem;
+        font-size: 2rem;
+        border-radius: 2rem;
+    }
+    .pok_bol {
+        top: 21rem;
+        left: -0.5rem;
+    }
+    .razdel{
+        height: 27.5rem;
+    }
+    .podrazd{
+        margin-left: 2rem;
+        width: 72.5rem;
+        height: 23rem;
+        margin-top: 2rem;
+        border-radius: 2rem;
+    }
+    .kn-jo{
+        width: 35%;
+    }
+    .pod_txt {
+        width: 42.5rem;
+        font-size: 2.6rem;
+        margin-left: 23rem;
+        margin-top: 4.8rem;
+    }
+    .pod_txt_av {
+        font-size: 2.2rem;
+        margin-left: 45rem;
+        margin-top: 12.3rem;
+    }
+    .txt_podb{
+        font-size: 2rem;
+    }
+    .podbo_img {
+        width: 17rem;
+    }
+    .podb{
+        margin-right: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    .txt_pod_o {
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+    .txt_avt{
+        font-size: 2rem;
+        margin-top: 2.6rem;
+    }
+    .avt {
+        margin-top: 1rem;
+        width: 72.5rem;
+        height: 56.2rem;
+        border-radius: 2rem;
+    }
+    .podborki{
+        width: 17.2rem;
+    }
+    .crug {
+        width: 11rem;
+        height: 11rem;
+        margin-top: 2.2rem;
+        margin-left: 11.1rem;
+    }
+    .rb_txt {
+        font-size: 2.2rem;
+        margin-top: 15rem;
+        margin-left: 9.2rem;
+    }
+    .rb_txt_op {
+        font-size: 2rem;
+        width: 30.5rem;
+        margin-top: 18.6rem;
+        margin-left: 2.8rem;
+    }
+    .avt_nav_l {
+        margin-left: 30.5rem;
+        margin-top: 4.5rem;
+    }
+    .crug_vt, .crug_tr, .crug_ch {
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+    .crug_vt{
+        margin-top: 2.2rem;
+        margin-left: 35.3rem;
+    }
+    .crug_tr{
+        margin-left: 47.5rem;
+    }
+    .crug_ch{
+        margin-left: 59rem;
+    }
+    .sk_txt {
+        margin-top: 11rem;
+        margin-left: 34rem;
+    }
+    .kki_txt {
+        margin-top: 10.9rem;
+        margin-left: 47.3rem;
+    }
+    .sk_txt, .kki_txt, .ach_txt{
+        font-size: 1.6rem;
+    }
+    .ach_txt {
+        margin-top: 10.9rem;
+        margin-left: 57.6rem;
+    }
+    .avt_nav_r {
+        margin-top: 4.5rem;
+        margin-left: 67.3rem;
+    }
+    .rr_kn_r, .rr_kn_d, .rr_kn_t, .rr_kn_c, .rr_kn_p {
+        width: 13%;
+    }
+    .rr_kn_r {
+        margin-top: 19.2rem;
+        margin-left: 41.4rem;
+    }
+    .rr_kn_d {
+        margin-top: 19.2rem;
+        margin-left: 53.7rem;
+    }
+    .rr_kn_t {
+        margin-top: 37.3rem;
+        margin-left: 35.3rem;
+    }
+    .rr_kn_c {
+        margin-top: 37.3rem;
+        margin-left: 47.6rem;
+    }
+    .rr_kn_p {
+        margin-top: 37.3rem;
+        margin-left: 60rem;
+    }
+    .debook_rek {
+        margin-top: 2.4rem;
+        font-size: 2rem;
+    }
+    .i_kn, .i_kn_d {
+        width: 100%;
+        margin-left: 1.5rem;
+    }
+    .i_kn_s{
+        width: 100%;
+        margin-left: 2rem;
+    }
+    .akcii-kn {
+        margin-right: 3rem;
+    }
+    .nazv_kn {
+        font-size: 1.6rem;
+        width: 16rem;
+        position: absolute;
+    }
+    .avt_kn {
+        font-size: 1.4rem;
+        position: absolute;
+        margin-top: 5rem;
+    }
+    .card {
+        margin-top: 1.7rem;
+        margin-left: 0rem;
+        width: 73.8rem;
+        height: 50.3rem;
+    }
+    .kn, .kn_sk {
+        margin-right: 3.5rem;
+    }
+    .new_cena, .cena {
+        font-size: 1.8rem;
+        margin-top: 7rem;
+    }
+    .but_cup {
+        width: 16.3rem;
+        height: 3.5rem;
+        font-size: 1.4rem;
+        border-radius: 2rem;
+    }
+    .pr_sk {
+        font-size: 1.2rem;
+        margin-left: 0.7rem;
+    }
+    .block_pr {
+        margin-left: 11.3rem;
+        margin-top: 6.8rem;
+        width: 4.5rem;
+        height: 2rem;
+    }
+    .st_cena {
+        font-size: 1.2rem;
+        margin-top: 7.5rem;
+        margin-left: 5.5rem;
+    }
+    .line {
+        width: 2.7rem;
+    }
+    .rass {
+        margin-top: -9rem;
+        width: 72.5rem;
+        height: 26.8rem;
+        border-radius: 2rem;
+        height: 15.8rem;
+    }
+    .kn_cup{
+        position: absolute;
+    }
+    .txt_rass{
+        font-size: 2rem;
+    }
+    .ras_form {
+        width: 35.6rem;
+        height: 4.1rem;
+        border-radius: 2rem;
+    }
+    .form_ras {
+        margin-top: 8.8rem;
+        margin-left: 11.5rem;
+    }
+    .pod_ras {
+        margin-left: 32.3rem;
+        margin-top: 8.8rem;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .but_ras {
+        width: 21.5rem;
+        height: 4.3rem;
+        font-size: 2rem;
+        font-weight: 700;
+        border-radius: 2rem;
+    }
+    .move-right{
+        margin-left: 12.3rem;
+    }
+    .container_podval {
+        margin: 2rem 2rem;
+    }
+    .n_debook {
+        font-size: 2.8rem;
+    }
+    .nav_p{
+        font-size: 1.6rem;
+        margin-top: 1.9rem;
+    }
+    .nav-p-item{
+        margin-right: 5rem;
+    }
+    .adr {
+        font-size: 1.6rem;
+        width: 74.4rem;
+        margin-top: 2rem;
+    }
+    .podval{
+        height: 19.7rem;
+    }
+    .akcii-filtr-nav-ac-ct {
+        margin-top: 2.1rem;
+        margin-left: 1.2rem;
+        font-size: 1.6rem;
+        font-weight: 400;
+        width: 15.2rem;
+    }
+    .akcii-filtr-nav-kn, .akcii-filtr-nav-filtr, .akcii-filtr-nav-filtr-o {
+        font-size: 1.6rem;
+    }
+    .akcii-filtr-nav-kn {
+        margin-left: 2rem;
+    }
+    .akcii-filtr-nav-filtr {
+        margin-left: 2.6rem;
+        margin-top: 0.4rem;
+    }
+    .akcii-filtr-nav-izd, .akcii-filtr-nav-izd-d, .akcii-filtr-nav-izd-dos {
+        color: #000;
+        margin-top: 1.9rem;
+        margin-left: 1.3rem;
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+    .akcii-filtr-nav-button {
+        border-radius: 2rem;
+        width: 17.4rem;
+        height: 5.3rem;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .akcii_filtr {
+        width: 19.6rem;
+        height: 61rem;
+        border-radius: 2rem;
+    }
+    .akcii-filtr-nav-cen-input-txt-max {
+        margin-left: 1rem;
+    }
+    .input-nmb-akcii {
+        border-radius: 2rem;
+        width: 7.7rem;
+        height: 3rem;
+        font-size: 1.6rem;
+    }
+    .akcii-filtr-rub {
+        font-size: 1.4rem;
+        bottom: 0.75rem;
+        left: 6rem;
+    }
+    .akcii-filtr-nav-cen-do {
+        margin-left: 7rem;
+    }
+    .akcii-filtr-nav-filtr-o {
+        margin-top: 0.4rem;
+    }
+    .akcii-filtr-nav-ac-ct {
+        margin-top: 1.1rem;
+    }
+    .akcii-filtr-nav-cen-img {
+        margin-top: 1.3rem;
+    }
+    .akcii-filtr-nav-cen-ot, .akcii-filtr-nav-cen-do {
+        font-size: 1.6rem;
+    }
+    .akcii_knigi{
+        margin-left: 1.2rem;
+        height: 159.3rem;
+    }
+    .div_ryad_akcii{
+        width: 54.4rem;
+    }
+    .div_ryad_akcii_p {
+        display: flex;
+        width: 54.4rem;
+        margin-top: 10.7rem;
+    }
+    .d_txt_a {
+        font-size: 2rem;
+    }
+    .d_banner {
+        margin-top: 2rem;
+        border-radius: 2rem;
+        width: 72.2rem;
+        height: 16.7rem;
+    }
+    .d_banner_txt {
+        margin-left: 5.7rem;
+        padding-top: 3rem;
+        font-size: 2.4rem;
+        width: 59.6rem;
+    }
+    .nav_str_akcii, .nav_str_cat {
+        margin-top: 4rem;
+        margin-left: 29rem;
+        font-size: 1.8rem;
+    }
+    .nav-item-str {
+        margin-right: 1rem;
+        margin-left: 1.3rem;
+        margin-top: 0.4rem;
+    }
+    .nav-item-str-vib {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .d_banner_button {
+        border-radius: 2rem;
+        width: 20.6rem;
+        height: 4.8rem;
+        font-size: 1.6rem;
+        border: none;
+    }
+    .d_banner_img {
+        margin-left: 16.3rem;
+        top: -1.9rem;
+        width: 13%;
+    }
+    .d_banner_but {
+        margin-left: 5.7rem;
+        margin-top: 2rem;
+    }
+    .d_carta_pvz_pv {
+        font-size: 1.6rem;
+        width: 20rem;
+        margin-top: 1.9rem;
+    }
+    .d_carta{
+        width: 72rem;
+        height: 51rem;
+        margin-top: 2.7rem;
+        border-radius: 2rem 0rem 0rem 2rem;
+    }
+    .d_carta_pvz_punkt, .d_carta_pvz_punkt_adr {
+        font-size: 1.6rem;
+    }
+    .d_carta_pvz_punkt {
+        margin-top: 1.8rem;
+    }
+    .d_carta_yancarta {
+        height: 51rem;
+    }
+    .news {
+        margin-top: 2.2rem;
+    }
+    .news_one_osn {
+        width: 33.5rem;
+        height: 8.7rem;
+    }
+    .news_one{
+        width: 92%;
+        margin-right: 2rem;
+    }
+    .news_one_osn_txt1{
+        font-size: 1.4rem;
+        font-weight: 700;
+        padding-top: 1.5rem;
+        margin-left: 1.7rem;
+        width: 34.5rem;
+    }
+    .news_three_txt1{
+        font-size: 1.3rem;
+        font-weight: 700;
+        padding-top: 1.5rem;
+        margin-left: 1.7rem;
+        width: 20rem;
+    }
+    .news_one_osn_txt2{
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin-left: 1.7rem;
+        margin-top: 0.7rem;
+    }
+    .news_three_txt2{
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-left: 1.7rem;
+        margin-top: 0.7rem;
+    }
+    .vt_news {
+        margin-top: 2.3rem;
+    }
+    .news_three {
+        width: 22.3rem;
+        height: 9.2rem;
+    }
+    .c_txt, .c_txt_o, .c_txt_po {
+        font-size: 1.8rem;
+        margin-left: 5rem;
+    }
+    .zat{
+        height: 15rem;
+    }
+    .card_hleb-item {
+        font-size: 1.2rem;
+        margin-right: 0.8rem;
+    }
+    .card_info_name {
+        font-size: 2.8rem;
+    }
+    .card_info_avt_a {
+        font-size: 2rem;
+    }
+    .card_info_tovar_left_item, .card_info_tovar_right_item, .card_info_tovar_left_item_p {
+        margin-top: 1rem;
+    }
+    .card_info_tovar {
+        font-size: 1.4rem;
+    }
+    .card_ingo_img_1 {
+        margin-top: 3.5rem;
+    }
+    .card_info_button {
+        border-radius: 2rem;
+        width: 20rem;
+        height: 4.2rem;
+        font-size: 1.4rem;
+    }
+    .card_info_img_osn {
+        width: 36rem;
+    }
+    .card_info_img{
+        width: 39%;
+    }
+    .card_info_img_3 {
+        width: 33%;
+    }
+    .card_info_osn{
+        margin-left: 3rem;
+    }
+    .card_info_but {
+        margin-top: 2rem;
+        margin-left: -0.1rem;
+    }
+    .card_info_tovar_right {
+        margin-left: 4rem;
+    }
+    .card_info_cena {
+        font-size: 3rem;
+    }
+    .card_info_neosn {
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin-top: 3rem;
+        line-height: 2rem;
+        margin-bottom: 5rem;
+    }
+    .news_p_w_txt {
+        font-size: 2.8rem;
+        top: 30rem;
+        margin-left: 7rem;
+        width: 65.8rem;
+    }
+    .news_p_inf {
+        font-size: 1.4rem;
+        margin-top: 3rem;
+        letter-spacing: 0.03rem;
+        line-height: 2rem;
+    }
+    .news_p_img {
+        padding-right: 1rem;
+    }
+    .zat_news_p{
+        margin-bottom: 8rem;
+    }
+    .nav_but_knm{
+        display: none;
+    }
+    .akciya_pr {
+        width: 23rem;
+    }
+    .akpr_txt2 {
+        font-size: 1.4rem;
+        width: 20rem;
+    }
+    .noUi-handle {
+        height: 2rem;
+        width: 2rem;
+    }
+}
+@media (max-width: 767px) {
+    html{
+        font-size: calc(100vw / 500 * 10);
+    }
+    .header_gorod_name{
+        display: none;
+    }
+    .cart-popup {
+        right: 0rem;
+        width: 49rem;
+        height: 100rem;
+        background-color: #1a1a1a;
+    }
+    .cart_wr {
+        width: 92%;
+        height: 11.5rem;
+    }
+    .cart-txt {
+        font-size: 1.8rem;
+        margin-top: 1rem;
+    }
+    .cart_nazvan {
+        font-size: 1.6rem;
+    }
+    .cart_avtor {
+        font-size: 1.4rem;
+    }
+    .cart_cena {
+        font-size: 1.6rem;
+    }
+    .cart_opl_but {
+        width: 23rem;
+        height: 4rem;
+        font-weight: 700;
+        font-size: 1.6rem;
+    }
+    .cart_opl {
+        margin-left: 12.5rem;
+        margin-top: 2rem;
+    }
+    .cart_chbx {
+        width: 2rem;
+        margin-left: 33rem;
+        top: -6.5rem;
+    }
+    .header {
+        height: 9rem;
+    }
+    .nav{
+        display: none;
+    }
+    .header_gorod {
+        width: 2rem;
+        margin-top: 1.5rem;
+    }
+    .name {
+        margin-left: 20rem;
+        font-size: 2.2rem;
+        margin-top: 1.5rem;
+    }
+    .div_search {
+        width: 48rem;
+        left: 1rem;
+        margin-top: 5rem;
+    }
+    .button_poisk {
+        bottom: 0.6rem;
+        margin-left: 1.2rem;
+        width: 4%;
+    }
+    input {
+        font-size: 1.2rem;
+        height: 2.5rem;
+        padding-left: 3.5rem;
+        border-radius: 1.5rem;
+    }
+    .header_lkbk {
+        margin-top: 1.5rem;
+        margin-left: 42rem;
+    }
+    .logo_lk, .logo_bk {
+        width: 2rem;
+    }
+    .logo_bk {
+        margin-left: 2rem;
+    }
+    .head_menu_mob{
+        display: block;
+        position: absolute;
+        margin-left: 6rem;
+        margin-top: 2rem;
+    }
+    .container_body, .container_body_cart, .container_body_tw, .container_body_akcii {
+        margin: 1rem 1rem;
+    }
+    .slayder {
+        height: 13rem;
+    }
+    .sl_pr, .sl_vt, .sl_tr {
+        width: 48rem;
+    }
+    .sl_l, .sl_r {
+        top: 9rem;
+        width: 3rem;
+    }
+    .sl_pr_txt {
+        top: 5.4rem;
+        margin-left: 10.7rem;
+        font-size: 2.2rem;
+    }
+    .sl_vt, .sl_tr {
+        height: 20.1rem;
+        top: 10rem;
+        border-radius: 2rem;
+    }
+    .sl_r {
+        margin-left: 43.7rem;
+    }
+    .sl_pr_vt_txt {
+        top: 11rem;
+        left: 10.7rem;
+        font-size: 1rem;
+    }
+    .button_sl {
+        top: 15rem;
+        margin-left: 1.4rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+    .sl_butt {
+        height: 3rem;
+        border-radius: 2rem;
+        width: 45rem;
+    }
+    .skidka {
+        width: 13rem;
+        height: 19rem;
+    }
+    .skidka_txt {
+        font-size: 1.8rem;
+        top: 3rem;
+        left: 1rem;
+    }
+    .skidka_txtc {
+        font-size: 5rem;
+        top: 6.9rem;
+        left: 1.5rem;
+    }
+    .nav_but_knm{
+        display: none
+    }
+    .l_kn_mec {
+        height: 1rem;
+        width: 26.8rem;
+        margin-left: 14rem;
+        bottom: 18.8rem;
+        font-size: 1.8rem;
+    }
+    .kn_mec, .kn_mec1 {
+        margin-right: 1rem;
+        margin-top: 2rem;
+        width: 7rem;
+    }
+    .pok_but {
+        width: 33.5rem;
+        height: 3.8rem;
+        font-size: 1.2rem;
+        border-radius: 2rem;
+    }
+    .pok_bol {
+        top: 15rem;
+        left: -0.5rem;
+        border-radius: 2rem;
+    }
+    .spisok_kn_mec {
+        margin-top: 1.6rem;
+        width: 34rem;
+    }
+    .podrazd {
+        margin-left: 1rem;
+        width: 48rem;
+        height: 15.2rem;
+        margin-top: 2rem;
+    }
+    .razdel {
+        height: 19.5rem;
+    }
+    .pod_txt {
+        width: 31.5rem;
+        font-size: 1.6rem;
+        margin-left: 16rem;
+        margin-top: 3.8rem;
+    }
+    .pod_txt_av {
+        font-size: 1.4rem;
+        margin-left: 31rem;
+        margin-top: 8.3rem;
+    }
+    .podb{
+        margin-top: 1rem;
+        margin-right: 1.35rem;
+    }
+    .txt_podb {
+        font-size: 1.8rem;
+    }
+    .podbo_img {
+        width: 10.9rem;
+    }
+    .txt_pod_o {
+        margin-top: 1.5rem;
+    }
+    .txt_pod_o {
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
+    }
+    .txt_avt {
+        font-size: 1.8rem;
+        margin-top: 1.6rem;
+    }
+    .crug_vt, .sk_crug, .sk_txt, .crug_tr, .kki_crug, .kki_txt, .crug_ch, .ach_crug, .ach_txt{
+        display: none;
+    }
+    .avt {
+        width: 48rem;
+        height: 40.2rem;
+    }
+    .crug {
+        width: 8rem;
+        height: 8rem;
+        margin-top: 1.5rem;
+        margin-left: 19rem;
+    }
+    .avt_nav_l {
+        margin-left: 12.5rem;
+    }
+    .avt_nav_r {
+        margin-left: 30.3rem;
+    }
+    .rb_txt {
+        font-size: 1.8rem;
+        margin-top: 11rem;
+        margin-left: 16.5rem;
+    }
+    .rb_txt_op {
+        font-size: 1.4rem;
+        width: 30.5rem;
+        margin-top: 13.6rem;
+        margin-left: 2.8rem;
+        width: 42rem;
+    }
+    .rr_kn_d {
+        margin-top: 24.2rem;
+        margin-left: 20.1rem;
+    }
+    .rr_kn_t {
+        margin-top: 24.2rem;
+        margin-left: 32.3rem;
+    }
+    .rr_kn_r, .rr_kn_d, .rr_kn_t, .rr_kn_c, .rr_kn_p {
+        width: 17%;
+    }
+    .rr_kn_r {
+        margin-top: 24.2rem;
+        margin-left: 7.8rem;
+    }
+    .rr_kn_c, .rr_kn_p{
+        display: none;
+    }
+    .debook_rek {
+        margin-top: 2rem;
+        font-size: 1.8rem;
+    }
+    .but_cup {
+        width: 11.6rem;
+        height: 2.5rem;
+        font-size: 1.2rem;
+    }
+    .kn, .kn_sk {
+        margin-right: 1rem;
+    }
+    .i_kn, .i_kn_d {
+        width: 75%;
+        margin-left: 1.5rem;
+    }
+    .nazv_kn {
+        font-size: 1.4rem;
+        width: 12rem;
+    }
+    .avt_kn {
+        font-size: 1.2rem;
+    }
+    .new_cena, .cena {
+        font-size: 1.6rem;
+    }
+    .card {
+        margin-top: 1.7rem;
+        margin-left: 0rem;
+        width: 48.5rem;
+        height: 26.3rem;
+    }
+    .rass {
+        margin-top: 2rem;
+        width: 48rem;
+        height: 14rem;
+    }
+    .png_ras{
+        display: none;
+    }
+    .txt_rass {
+        font-size: 1.4rem;
+        width: 43.7rem;
+        margin-left: 2.4rem;
+        margin-top: 1.5rem;
+        height: 8.2rem;
+    }
+    .ras_form {
+        width: 43rem;
+        height: 2.5rem;
+        border-radius: 1rem;
+    }
+    .form_ras {
+        margin-top: 5.8rem;
+        margin-left: 2.4rem;
+    }
+    .pod_ras {
+        margin-left: 2.4rem;
+        margin-top: 9.4rem;
+        font-weight: 700;
+    }
+    .but_ras {
+        width: 43rem;
+        height: 3rem;
+        font-size: 1.4rem;
+        font-weight: 700;
+        border-radius: 1rem;
+    }
+    .move-right{
+        margin-left: 0rem;
+    }
+    .podval {
+        height: 31.7rem;
+    }
+    .container_podval {
+        margin: 1rem 1rem;
+    }
+    .n_debook {
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 2rem;
+    }
+    .nav_p {
+        font-size: 1.6rem;
+        margin-top: 1.9rem;
+        text-align: center
+    }
+    .nav-p-item {
+        margin-right: 0rem;
+        display: block;
+        margin-top: 2rem;
+    }
+    .adr {
+        font-size: 1.2rem;
+        margin-top: 2rem;
+        text-align: center;
+        width: 48rem;
+    }
+    .card_info_img_3 {
+        width: 26%;
+    }
+    .card_info_img {
+        width: 71%;
+    }
+    .card_info_img_osn {
+        width: 23rem;
+    }
+    .card_info {
+        margin-top: 2rem;
+    }
+    .card_info_name {
+        font-size: 2rem;
+    }
+    .card_info_avt_a {
+        font-size: 1.8rem;
+    }
+    .card_info_avt {
+        margin-top: 0.5rem;
+    }
+    .card_info_avt_a {
+        font-size: 1.4rem;
+    }
+    .card_info_tovar {
+        font-size: 1rem;
+    }
+    .card_ingo_img_1 {
+        margin-top: 2rem;
+    }
+    .card_info_osn {
+        margin-left: 2rem;
+    }
+    .card_info_button {
+        border-radius: 2rem;
+        width: 18rem;
+        height: 3.2rem;
+        font-size: 1.2rem;
+    }
+    .card_info_but {
+        margin-top: 1.5rem;
+    }
+    .card_info_neosn {
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-top: 3rem;
+        line-height: 1.7rem;
+        margin-bottom: 3rem;
+    }
+    .card_info_cena {
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+    .card_hleb-item {
+        font-size: 1rem;
+        margin-right: 0.8rem;
+    }
+    .element_akcii {
+        display: block;
+    }
+    .nastr_img {
+        display: block;
+        position: absolute;
+        margin-left: 10rem;
+        top: 9.6rem;
+        width: 2.5rem;
+    }
+    .akcii_filtr {
+        display: none;
+        width: 48rem;
+        height: 56rem;
+        border-radius: 2rem;
+    }
+    .div_ryad_akcii {
+        width: 48.4rem;
+    }
+    .div_ryad_akcii_p {
+        width: 48.4rem;
+    }
+    .akcii-filtr-nav-but {
+        margin-top: 1.3rem;
+    }
+    .element_akcii {
+        margin-top: 2rem;
+    }
+    .akcii-filtr-nav-button {
+        border-radius: 2rem;
+        width: 45rem;
+        height: 3.5rem;
+        font-size: 1.6rem;
+    }
+    .akcii-filtr-nav-kn {
+        margin-left: 3rem;
+    }
+    .akcii-filtr-nav-filtr {
+        margin-left: 4.6rem;
+    }
+    .akcii-filtr-nav-cen-do {
+        margin-left: 24rem;
+    }
+    .akcii-filtr-nav-cen-input-txt-max {
+        margin-left: 18rem;
+    }
+    .akcii_knigi {
+        margin-top: 2.5rem;
+    }
+    .i_kn_s {
+        width: 70%;
+        margin-left: 1.5rem;
+    }
+    .block_pr {
+        margin-left: 7.3rem;
+    }
+    .st_cena {
+        font-size: 0.8rem;
+        margin-top: 7.5rem;
+        margin-left: 4.5rem;
+    }
+    .line {
+        display: none;
+    }
+    .akcii_knigi {
+        height: 130.3rem;
+    }
+    .nav_str_akcii, .nav_str_cat {
+        margin-top: 4rem;
+        margin-left: 15rem;
+        font-size: 1.6rem;
+    }
+    .nav-item-str {
+        margin-left: 1rem;
+    }
+    .prob_mob{
+        margin-top: 5rem    ;
+    }
+    .d_banner {
+        margin-top: 2rem;
+        border-radius: 2rem;
+        width: 48rem;
+        height: 11.7rem;
+    }
+    .d_banner_txt {
+        margin-left: 1.7rem;
+        padding-top: 2rem;
+        font-size: 1.8rem;
+        width: 44.6rem;
+    }
+    .d_banner_img{
+        display: none;
+    }
+    .d_banner_button {
+        border-radius: 2rem;
+        width: 45rem;
+        height: 3.8rem;
+        font-size: 1.4rem;
+        border: none;
+    }
+    .d_banner_but {
+        margin-left: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    .d_carta {
+        width: 72rem;
+        height: 51rem;
+        margin-top: 1.7rem;
+    }
+    .d_carta_pvz{
+        display: none;
+    }
+    .d_carta {
+        width: 47.5rem;
+    }
+    .d_txt_a {
+        font-size: 1.8rem;
+    }
+    .news {
+        margin-top: 1rem;
+    }
+    .news_one_osn {
+        width: 22.35rem;
+        height: 8.7rem;
+        border-radius: 0rem 0rem 1rem 1rem;
+    }
+    .news_one {
+        width: 95%;
+        margin-right: 0rem;
+    }
+    .osn_news {
+        margin-left: 1rem;
+    }
+    .news_one_osn_txt1{
+        font-size: 1.3rem;
+        padding-top: 1rem;
+        margin-left: 1rem;
+        width: 23.5rem;
+    }
+    .news_three_txt1 {
+        font-size: 1.2rem;
+        padding-top: 1rem;
+        margin-left: 1rem;
+        width: 14.5rem;
+    }
+    .news_one_osn_txt2 {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-left: 1rem;
+        margin-top: 0.7rem;
+    }
+    .news_three_txt2 {
+        font-size: 1.2rem;
+        margin-left: 1rem;
+        margin-top: 0.7rem;
+        margin-left: 1rem;
+        width: 13rem;
+    }
+    .c_txt, .c_txt_o, .c_txt_po {
+        font-size: 1.6rem;
+        margin-left: 5rem;
+    }
+    .vt_news {
+        width: 45rem;
+        margin-left: 1rem;
+    }
+    .news_p_w_txt {
+        font-size: 1.8rem;
+        top: 21rem;
+        margin-left: 5rem;
+        width: 38.8rem;
+    }
+    .news_three {
+        width: 14.3rem;
+        height: 10.2rem;
+        border-radius: 0rem 0rem 1rem 1rem;
+    }
+    .akciya_pr {
+        width: 15rem;
+        border-radius: 0rem 0rem 1rem 1rem;
+        height: 14rem;
+    }
+    .akpr_prob {
+        margin-right: 1rem;
+    }
+    .akpr_txt2 {
+        font-size: 1.2rem;
+        width: 12rem;
+    }
+    
+}
+@media (max-width: 600px){
+    .head_menu_mob {
+        width: 2rem;
+    }
+}
